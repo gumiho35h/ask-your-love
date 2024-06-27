@@ -4,17 +4,12 @@ body {
     align-items: center;
     height: 90vh;
     background-color: #f8c8dc;
+    margin: 0;
 }
 
-#noButton {
+#noButton, #yesButton {
     position: absolute;
-    margin-left: 150px;
     transition: 0.5s;
-}
-
-#yesButton {
-    position: absolute;
-    margin-right: 150px;
 }
 
 .header_text {
@@ -45,7 +40,7 @@ body {
     font-size: 16px;
     border-radius: 30%;
     padding-top: 20px;
-    border-bottom:9px solid rgb(233, 128, 145);
+    border-bottom: 9px solid rgb(233, 128, 145);
     border-top: 1px solid rgb(233, 128, 145);
     border-left: 1px solid rgb(233, 128, 145);
     border-right: 1px solid rgb(233, 128, 145);
@@ -53,8 +48,8 @@ body {
 
 .btn:hover {
     cursor: pointer;
-    background-color:#ffa1af;
-    border-bottom:3px solid #f2556d;
+    background-color: #ffa1af;
+    border-bottom: 3px solid #f2556d;
     border-top: 1px solid #f2556d;
     border-left: 1px solid #f2556d;
     border-right: 1px solid #f2556d;
@@ -68,8 +63,6 @@ body {
 }
 
 img {
-   align-items: center;
-   align-content: center;
-   align-self: center;
-   display: flex;
+    display: flex;
+    align-items: center;
 }
